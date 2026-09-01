@@ -1,0 +1,32 @@
+set scrolloff=8
+set number
+set relativenumber
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+
+colorscheme desert
+
+
+" remaps
+let mapleader = " "
+nnoremap <leader>pv :Ex<CR>
+nnoremap <leader><CR> :so ~/.config/nvim/init.vim<CR>
+nnoremap <C-d> <C-d>M
+nnoremap <C-u> <C-u>M
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+" Map Alt+h/j/k/l to move cursor left/down/up/right in insert mode
+inoremap <A-h> <C-o>h
+inoremap <A-j> <C-o>j
+inoremap <A-k> <C-o>k
+inoremap <A-l> <C-o>l
+
+" Other useful mappings:
+inoremap <A-b> <C-o>b  " Move to beginning of previous word
+inoremap <A-w> <C-o>w  " Move to beginning of next word
+
+" Dont lose the register value after pasting in visual mode
+xnoremap <leader>p "_dP
