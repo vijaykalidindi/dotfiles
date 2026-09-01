@@ -1,0 +1,100 @@
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   /Users/vkalidin/Library/Application Support/com.mitchellh.ghostty/config
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# Config syntax crash course
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+
+#font-family = "Monaspace Neon"
+#font-family = "Inconsolata-g for Powerline"
+#font-family = "RobotoMono Nerd Font Mono"
+#font-family = "Consolas for Powerline"
+#font-family = "IBM Plex Mono"
+#font-family = "Fragment Mono"
+#font-family = "SF Mono"
+#font-family = "Akkurat Mono"
+#font-family = "Geist Mono"
+#font-family = "hack"
+
+font-family = "droid sans Mono sw"
+#font-family = "Red hat Mono"
+#font-family = "office code pro"
+#font-family = "source code pro"
+#font-family = "Andale mono"
+#font-family = "Google sans code"
+#font-family = "Google Sans Mono"
+#font-family = "Menlo"
+#font-family = "CamingoCode"
+#font-family = "Courier Prime Code"
+#font-family = "Courier Code"
+#font-family = LiterationMono Nerd Font Mono
+#font-family = "OG Courier Zero Dot"
+#font-family = Input mono
+#font-family = "Jetbrains Mono NL Light"
+#font-family = "JetbrainsMonoNL Nerd Font Mono Light"
+#font-family = "commitmonowone-400regular"
+#font-family = "Atlassian Mono"
+#font-family = "Anthropic Mono Web"
+#font-family = Fira code
+#font-family = Fira mono
+#font-family = "commitmono nerd font mono"
+#font-family = monaco
+#font-family = ubuntu sans mono
+
+#font-family = "IosevkaCurvedl2"
+#font-family = "Iosevka"
+#font-family = "Iosevka2"
+#font-family = "IosevkaJetbrainsMono"
+#font-family = IoskeleyMono Nerd Font
+#font-family = IoskeleyMonoTerm Nerd Font
+#font-family = "IosevkaWriter"
+
+
+
+
+font-size = 19
+
+
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+
+
+copy-on-select = true
+
+# window-padding-x = 2
+#
+# # Spacing around the equals sign does not matter.
+# # All of these are identical:
+# key=value
+# key= value
+# key =value
+# key = value
+#
+# # Any line beginning with a # is a comment. It's not possible to put
+# # a comment after a config option, since it would be interpreted as a
+# # part of the value. For example, this will have a value of "#123abc":
+# background = #123abc
+#
+# # Empty values are used to reset config keys to default.
+# key =
+#
+# # Some config options have unique syntaxes for their value,
+# # which is explained in the docs for that config option.
+# # Just for example:
+# resize-overlay-duration = 4s 200ms
